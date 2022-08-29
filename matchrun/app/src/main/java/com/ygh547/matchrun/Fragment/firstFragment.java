@@ -97,7 +97,7 @@ public class firstFragment extends Fragment implements OnMapReadyCallback, Googl
 
         googleMap.addMarker(new MarkerOptions().position(new LatLng(37.5438428,126.5772096)).title("마커3")).setTag(2);
 
-        googleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
         googleMap.setOnMarkerClickListener(this);
 
