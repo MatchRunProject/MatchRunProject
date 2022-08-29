@@ -74,9 +74,9 @@ public class firstFragment extends Fragment implements OnMapReadyCallback, Googl
 
         View view = inflater.inflate(R.layout.fragment_first, null, false);
 
-        SupportMapFragment mapFragment = (SupportMapFragment) this.getChildFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+//        SupportMapFragment mapFragment = (SupportMapFragment) this.getChildFragmentManager()
+//                .findFragmentById(R.id.map);
+//        mapFragment.getMapAsync(this);
 
         return view;
     }

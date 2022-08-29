@@ -53,6 +53,9 @@ import com.ygh547.matchrun.R;
 import com.ygh547.matchrun.api.NetworkClient;
 import com.ygh547.matchrun.api.UserApi;
 import com.ygh547.matchrun.config.Config;
+import com.ygh547.matchrun.login.RegisterActivity;
+import com.ygh547.matchrun.login.findidActivity;
+import com.ygh547.matchrun.login.findpasswordActivity;
 import com.ygh547.matchrun.model.User2;
 import com.ygh547.matchrun.model.UserRes;
 

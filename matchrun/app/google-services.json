@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "176895182008-hs6qfgjumk342ch9m8igvgngfhe7fpfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ygh547.matchrun",
+            "certificate_hash": "dc19473f125de4cd4429b25c918f6a79017f418d"
+          }
+        },
+        {
           "client_id": "176895182008-iniaom4u4435pa54c0a6tg6dknd7l6s7.apps.googleusercontent.com",
           "client_type": 3
         }
