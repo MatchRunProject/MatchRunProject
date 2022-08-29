@@ -1,12 +1,7 @@
 package com.ygh547.matchrun.api;
 
-import androidx.annotation.BinderThread;
-
-import com.kakao.sdk.user.model.User;
 import com.ygh547.matchrun.model.User2;
-import com.ygh547.matchrun.model.User2List;
 import com.ygh547.matchrun.model.UserRes;
-import com.ygh547.matchrun.model.UserRes2;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -24,7 +19,7 @@ public interface UserApi {
 
     // 로그인 API
     @POST("/users/login")
-    Call<UserRes> login(@Body User2 user2);
+    Call<UserRes> login2(@Body User2 user2);
 
     // 로그아웃 API
     @POST("/users/logout")
@@ -32,7 +27,7 @@ public interface UserApi {
 
     // 아이디 찾기 API
     @GET("/users/id/search")
-    Call<UserRes2> idsearch(@Body User2 user2);
+    Call<UserRes> idsearch(@Body User2 user2);
 
     // 비밀번호 찾기 API
     @GET("/users/password/search")

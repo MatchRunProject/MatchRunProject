@@ -96,34 +96,34 @@ public class findpasswordActivity extends AppCompatActivity {
                 User2 user2 = new User2(email,question2, questionAn2);
                 Call<UserRes> call = api.passwordsearch(user2);
 
-                call.enqueue(new Callback<UserRes>() {
-                    @Override
-                    public void onResponse(Call<UserRes> call, Response<UserRes> response) {
-
-                        if(response.isSuccessful()){
-
-                            UserRes userRes = response.body();
-                            String password = userRes.getPassword();
-
-                            SharedPreferences sp = getApplication().getSharedPreferences(Config.PREFERENCES_NAME, MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sp.edit();
-                            editor.putString("password", password);
-                            editor.apply();
-
-                            Intent intent = new Intent(findpasswordActivity.this, SecondfindpasswordActivity.class);
-                            startActivity(intent);
-                            finish();
-
-                        }else{
-
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<UserRes> call, Throwable t) {
-
-                    }
-                });
+//                call.enqueue(new Callback<UserRes>() {
+//                    @Override
+//                    public void onResponse(Call<UserRes> call, Response<UserRes> response) {
+//
+//                        if(response.isSuccessful()){
+//
+//                            UserRes userRes = response.body();
+//                            String password = userRes.getPassword();
+//
+//                            SharedPreferences sp = getApplication().getSharedPreferences(Config.PREFERENCES_NAME, MODE_PRIVATE);
+//                            SharedPreferences.Editor editor = sp.edit();
+//                            editor.putString("password", password);
+//                            editor.apply();
+//
+//                            Intent intent = new Intent(findpasswordActivity.this, SecondfindpasswordActivity.class);
+//                            startActivity(intent);
+//                            finish();
+//
+//                        }else{
+//
+//                        }
+//                    }
+//
+//                    @Override
+//                    public void onFailure(Call<UserRes> call, Throwable t) {
+//
+//                    }
+//                });
 
 //
             }

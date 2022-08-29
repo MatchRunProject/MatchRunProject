@@ -1,6 +1,5 @@
 package com.ygh547.matchrun.login;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
@@ -9,8 +8,6 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -19,15 +16,12 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.kakao.sdk.user.model.User;
 import com.ygh547.matchrun.R;
 import com.ygh547.matchrun.api.NetworkClient;
 import com.ygh547.matchrun.api.UserApi;
 import com.ygh547.matchrun.config.Config;
 import com.ygh547.matchrun.model.User2;
-import com.ygh547.matchrun.model.User2List;
 import com.ygh547.matchrun.model.UserRes;
-import com.ygh547.matchrun.model.UserRes2;
 
 import java.util.ArrayList;
 
@@ -116,38 +110,38 @@ public class findidActivity extends AppCompatActivity {
                 Retrofit retrofit = NetworkClient.getRetrofitClient(findidActivity.this);
                 UserApi api = retrofit.create(UserApi.class);
 
-                User2 user2 = new User2(name, subemail, question, questionAn);
-                Call<UserRes2> call = api.idsearch(user2);
+//                User2 user2 = new User2(name, subemail, question, questionAn);
+//                Call<UserRes> call = api.idsearch(user2);
+//
+//                call.enqueue(new Callback<UserRes>() {
+//                    @Override
+//                    public void onResponse(Call<UserRes> call, Response<UserRes> response) {
+//                        dismissProgress();
+//
+//                        if (response.isSuccessful()) {
+//
+//                            UserRes userRes = response.body();
+//                            String email = userRes.getEmail();
+//
+//                            SharedPreferences sp = getApplication().getSharedPreferences(Config.PREFERENCES_NAME, MODE_PRIVATE);
+//                            SharedPreferences.Editor editor = sp.edit();
+//                            editor.putString("email", email);
+//                            editor.apply();
+//
+//                            Intent intent = new Intent(findidActivity.this, SecondfindidActivity.class);
+//                            startActivity(intent);
+//                            finish();
+//
+//                        } else {
+//
+//                        }
+//                    }
 
-                call.enqueue(new Callback<UserRes2>() {
-                    @Override
-                    public void onResponse(Call<UserRes2> call, Response<UserRes2> response) {
-                        dismissProgress();
-
-                        if (response.isSuccessful()) {
-
-                            UserRes2 userRes = response.body();
-                            String email = userRes.getEmail();
-
-                            SharedPreferences sp = getApplication().getSharedPreferences(Config.PREFERENCES_NAME, MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sp.edit();
-                            editor.putString("email", email);
-                            editor.apply();
-
-                            Intent intent = new Intent(findidActivity.this, SecondfindidActivity.class);
-                            startActivity(intent);
-                            finish();
-
-                        } else {
-
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<UserRes2> call, Throwable t) {
-                        dismissProgress();
-                    }
-                });
+//                    @Override
+//                    public void onFailure(Call<UserRes> call, Throwable t) {
+//                        dismissProgress();
+//                    }
+//                });
             }
         });
     }

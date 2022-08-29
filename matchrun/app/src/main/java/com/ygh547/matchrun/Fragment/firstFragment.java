@@ -107,9 +107,9 @@ public class firstFragment extends Fragment implements OnMapReadyCallback, Googl
     public boolean onMarkerClick(@NonNull Marker marker) {
         int index = (int)marker.getTag();
         if(index ==0){
-            Toast.makeText(this,"Good~~",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(),"Good~~",Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this,"Hi~~",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(),"Hi~~",Toast.LENGTH_SHORT).show();
         }
 
         return false;

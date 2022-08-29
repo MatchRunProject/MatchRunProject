@@ -5,7 +5,7 @@ import android.widget.Spinner;
 
 import java.io.Serializable;
 
-public class User2 implements Serializable {
+public class User2 {
 
     private String email;
     private String password;
@@ -18,16 +18,10 @@ public class User2 implements Serializable {
     private String addrDetail;
 
 
-    public User2(String email){
-        this.email = email;
-    }
-
-
     public User2(String email, String password) {
         this.email = email;
         this.password = password;
     }
-
 
     public User2(String email, String password, String name) {
         this.email = email;

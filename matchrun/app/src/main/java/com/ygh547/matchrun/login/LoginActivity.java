@@ -126,8 +126,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 Retrofit retrofit = NetworkClient.getRetrofitClient(LoginActivity.this);
                 UserApi api = retrofit.create(UserApi.class);
 
-                User2 user = new User2(email, password);
-                Call<UserRes> call = api.login(user);
+                User2 user2 = new User2(email, password);
+                Call<UserRes> call = api.login2(user2);
 
                 showProgress("로그인 중...");
                 call.enqueue(new Callback<UserRes>() {
@@ -135,18 +135,14 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                     public void onResponse(Call<UserRes> call, Response<UserRes> response) {
                         dismissProgress();
 
-                        if (response.isSuccessful()) {
+                        if(response.isSuccessful()){
 
                             UserRes userRes = response.body();
-                            String access_token = userRes.getAccess_token();
-
-                            Intent intent2 = new Intent(getBaseContext(), ChatActivity.class);
-                            intent2.putExtra("access_token",access_token);
-                            startActivity(intent2);
+                            String accessToken = userRes.getAccess_token();
 
                             SharedPreferences sp = getApplication().getSharedPreferences(Config.PREFERENCES_NAME, MODE_PRIVATE);
                             SharedPreferences.Editor editor = sp.edit();
-                            editor.putString("accessToken", access_token);
+                            editor.putString("accessToken", accessToken);
                             editor.apply();
 
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
@@ -218,7 +214,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             startActivity(intent);
         }
 
-//        FirebaseUser mUser = FirebaseAuth.getInstance().getCurrentUser();
+        FirebaseUser mUser = FirebaseAuth.getInstance().getCurrentUser();
 //        mUser.getIdToken(true)
 //                .addOnCompleteListener(new OnCompleteListener<GetTokenResult>() {
 //                    public void onComplete(@NonNull Task<GetTokenResult> task) {
