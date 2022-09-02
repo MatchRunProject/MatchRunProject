@@ -35,9 +35,13 @@
 <br/>
 ## 팀원 소개<br/>
 
-|[김진열]|송은주|권성표|유지훈|
+|[김진열]|[송은주]|[권성표]|[유지훈]|
 |:---:|:---:|:---:|:---:|
 |![진열](https://user-images.githubusercontent.com/105832364/188074588-de15222f-caff-4168-a4d8-f42f2914d718.png)|![은주](https://user-images.githubusercontent.com/105832364/188074740-63fc3ea2-14a7-4249-b131-6b0106ce3466.png)|![성표](https://user-images.githubusercontent.com/105832364/188074848-e1703a80-0709-472a-8bb1-2fa9f4e13371.png)|![지훈](https://user-images.githubusercontent.com/105832364/188074939-5bddcf21-7982-4af6-a0e1-6e3e31287ac7.png)|
-|ㅈ같은 개발자|개발자인척하는 디자이너|토론충 잼민이|안드로이드충 잼민이|
+|소통하는 개발자|개발자인척하는 디자이너|토론충 잼민이|안드로이드충 잼민이|
 
 [김진열]:https://github.com/graphene911
+[송은주]:https://amurang03.cafe24.com
+[권성표]:https://github.com/seong10
+[유지훈]:https://github.com/ygh547
+
