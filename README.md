@@ -64,8 +64,15 @@
 - 리뷰데이터를 기반으로 나와 비슷한 상대팀과 매칭 할 수 있는 추천 기능<br/>
 - 상대팀과 경기를 진행 할 수 있는 매칭 신청, 수락 거절기능<br/>
 
+## [Android Studio 보러가기]<br/>
+[Android Studio 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/androidstudio-matchrun-dev
+
+## [REST API Server 보러가기]<br/>
+[REST API Server 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/flask-s3-matchrun-server
+
 ## [Table Reference 보러가기]<br/>
 [Table Reference 보러가기]: https://www.erdcloud.com/d/EcqFpAeexdMZx5ec3
+
 ## [API Reference 보러가기]<br/>
 [API Reference 보러가기]: https://graphene911.gitbook.io/matchrun-api-docs/
 
