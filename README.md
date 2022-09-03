@@ -37,7 +37,6 @@
 [![Amazon Rekognition Badge](https://img.shields.io/badge/AWS%20Rekognition-blueviolet?style=flat&logo=AWS%20Rekognition&logoColor=white)](https://aws.amazon.com/ko/rekognition/)
 
 <br/>
-<br/>
 
 ## 팀원 소개<br/>
 
@@ -53,7 +52,18 @@
 
 <br/>
 
+## 기획의도
+- 생활체육 동호인 관련 어플은 많이 있지만, 친목 위주의 SNS 기능만 제공하는 경우가 많습니다.<br/>
+내 주변에 어떤 동호인 팀이 있는지, 내 주변의 체육시설은 어디에 있는지 확인이 어려운점,<br/>
+친선 경기를 진행하려면 연락처와 같은 개인정보를 알 수 없어 쉽게 경기를 진행하지 못한다는<br/>
+문제점을 확인하였고 이런 부분들은 보완 할 수 없을까?<br/>
+팀 매칭 서비스, 포스팅 기능, 채팅, 체육시설 검색 등의 서비스를 제공해<br/>
+운동을 좋아하는 생활 체육 동호인들이 활발한 커뮤니티 활동을 할 수 있 어플을 기획하게 되었습니다.
+
+<br/>
+
 ## 프로젝트 소개<br/>
+- 매치런 프로젝트는 생활체육 동호회의 원활한 커뮤니티 활동을 지원합니다.<br/>
 
 |:+1: SNS 기능|:earth_asia: 지도검색 기능|:muscle: Matching 기능|
 |---|---|---|
@@ -63,12 +73,16 @@
 ## 실행 화면 <br/>
 #### Android Studio에서 개발하고 배포한 화면입니다.<br/>
 
+<br/>
+
 ## 기술 특장점<br/>
 - Google Firebase RDB(Realtime Data Base)를 이용한 채팅기능<br/>
 - 인공지능 AWS Recognition 객체 탐지 기능을 이용한 포스팅 이미지 태그 기능과 검색 기능<br/>
 - 공공데이터 Open API 와 Google Maps API를 이용한 전국의 8만여개 체육시설 지도 검색 기능<br/>
 - 리뷰데이터를 기반으로 나와 비슷한 상대팀과 매칭 할 수 있는 추천 기능<br/>
 - 상대팀과 경기를 진행 할 수 있는 매칭 신청, 수락 거절기능<br/>
+
+<br/>
 
 ## [Android Studio 보러가기]<br/>
 [Android Studio 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/androidstudio-matchrun-dev
