@@ -29,8 +29,13 @@
 
 ## AWS<br/>
 [![Amazon RDS Badge](https://img.shields.io/badge/AWS%20RDS-4479A1?style=flat&logo=Amazon%20RDS&logoColor=white)](https://aws.amazon.com/ko/rds/)
+[![Amazon IAM Badge](https://img.shields.io/badge/AWS%20IAM-red?style=flat&logo=Amazon%20IAM&logoColor=white)](https://aws.amazon.com/ko/rds/)
 [![Amazon S3 Badge](https://img.shields.io/badge/AWS%20S3-569A31?style=flat&logo=Amazon%20S3&logoColor=white)](https://aws.amazon.com/ko/s3/)
 [![Amazon Lambda Badge](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat&logo=AWS%20Lambda&logoColor=white)](https://aws.amazon.com/ko/lambda/)
+[![Amazon API Gateway Badge](https://img.shields.io/badge/AWS%20API%20Gateway-blue?style=flat&logo=AWS%20API%20Gateway&logoColor=white)](https://aws.amazon.com/ko/api-gateway/)
+[![Amazon CloudWatch Badge](https://img.shields.io/badge/AWS%20CloudWatch-FF4F8B?style=flat&logo=AWS%20CloudWatch&logoColor=white)](https://aws.amazon.com/ko/cloudwatch/)
+[![Amazon Rekognition Badge](https://img.shields.io/badge/AWS%20Rekognition-blueviolet?style=flat&logo=AWS%20Rekognition&logoColor=white)](https://aws.amazon.com/ko/rekognition/)
+
 <br/>
 <br/>
 ## 팀원 소개<br/>
