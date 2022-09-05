@@ -84,11 +84,11 @@
 
 <br/>
 
-## [Android Studio 보러가기]<br/>
-[Android Studio 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/androidstudio-matchrun-dev
+## [FrontEnd 보러가기]<br/>
+[FrontEnd 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/androidstudio-matchrun-dev
 
-## [REST API Server 보러가기]<br/>
-[REST API Server 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/flask-s3-matchrun-server
+## [BackEnd 보러가기]<br/>
+[BackEnd 보러가기]: https://github.com/MatchRunProject/MatchRunProject/tree/main/flask-s3-matchrun-server
 
 ## [Table Reference 보러가기]<br/>
 [Table Reference 보러가기]: https://www.erdcloud.com/d/EcqFpAeexdMZx5ec3
