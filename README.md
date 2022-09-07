@@ -71,13 +71,14 @@
 <br/>
 
 ## 실행 화면 <br/>
-#### Android Studio에서 개발하고 배포한 화면입니다.<br/>
+#### Android Studio에서 개발하고 실행한 화면입니다..<br/>
 
 <br/>
 
 ## 기술 특장점<br/>
 - Google Firebase RDB(Realtime Data Base)를 이용한 채팅기능<br/>
-- 인공지능 AWS Recognition 객체 탐지 기능을 이용한 포스팅 이미지 태그 기능과 검색 기능<br/>
+- 인공지능 AWS Recognition 객체 탐지 기능<br/>
+- Naver Papago API을 이용해 AWS Recognition의 탐지된 Lable을 번역 후 DB에 태그로 저장 및 포스팅을 태그로 검색하는 기능<br/>
 - 공공데이터 Open API 와 Google Maps API를 이용한 전국의 8만여개 체육시설 지도 검색 기능<br/>
 - 리뷰데이터를 기반으로 나와 비슷한 상대팀과 매칭 할 수 있는 추천 기능<br/>
 - 상대팀과 경기를 진행 할 수 있는 매칭 신청, 수락 거절기능<br/>
