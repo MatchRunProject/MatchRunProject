@@ -85,7 +85,7 @@
 
 <br/>
 
-## [화면기획서(Kakao Ovem) 보러가기]<br/>
+## [화면기획서(Kakao Oven) 보러가기]<br/>
 [화면기획서(Kakao Ovem) 보러가기]: https://ovenapp.io/view/AlfbUFB9ZFiGnb98mUKCJ8yEqKvR6gSc/xRLTu
 
 ## [FrontEnd 보러가기]<br/>
